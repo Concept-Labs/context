@@ -1,7 +1,7 @@
 {
     "name": "concept-labs/context",
     "description": "(C)oncept-Labs Context",
-    "keywords": ["php","context", "container"],
+    "keywords": ["php","context"],
     "license": "MIT",
     "authors": [
         {
@@ -10,8 +10,8 @@
         }
     ],
     "require": {
-        "php": "^8.0",
-        "concept-labs/able": "^1.0"
+        "php": "^7.2|^7.4|^8.0|^8.2",
+        "concept-labs/config": "^1"
     },
     "autoload": {
         "psr-4": {
